@@ -1,0 +1,72 @@
+.hero-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 40px;
+    background: linear-gradient(to top right,#CF6F70, #E8BCBD);/* Gradient background */
+  }
+  
+  
+  
+  
+  .text-content {
+    z-index: 2; /* Ensures text stays above other elements */
+    text-align: left; /* Align text to the left */
+    max-width: 60%; /* Restrict width for better readability */
+    line-height: 1.4; /* Adjust line spacing for better legibility */
+    color: #fff; /* Text color */
+  }
+  
+  .text-content h1 {
+    font-size: 56px; /* Increase the font size for emphasis */
+    font-weight: 800; /* Make the text bold */
+    margin-bottom: 30px; /* Add space below the heading */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 2px; /* Add spacing between letters */
+    line-height: 1.2; /* Adjust spacing between lines */
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); /* Add a shadow for a glowing effect */
+  }
+  
+  .start-button {
+    background: #ffdfdf; /* Soft pink for the button background */
+    color: #d86b85; /* Matching pink text */
+    padding: 15px 30px; /* Increase padding for a bigger button */
+    border: none; /* Remove default border */
+    border-radius: 50px; /* Fully round the button edges */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text */
+    font-size: 16px; /* Increase text size */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .start-button:hover {
+    background-color: #f5a5b2; /* Darker pink on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+  }
+  
+  
+  /* Styling the image in the bottom-right */
+  .image-content {
+    position: absolute; /* Position relative to hero-section */
+    bottom: 20px; /* 20px from the bottom */
+    right: 1px; /* 20px from the right */
+    z-index: 2;
+    max-width: 1000px; /* Restrict width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    height: "100%";
+    background-Repeat: "no-repeat";
+    background-Size: "450px ";
+    background-Position: "bottom right";
+    height: "100%";
+    background-Repeat: "no-repeat";
+    background-Size: "450px ",
+     /* Place behind the text content */
+  }
+  
+  
+
+  

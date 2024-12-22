@@ -1,0 +1,60 @@
+.service-card {
+    background-color: #ffecec; /* Light pink background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    margin: 15px 0;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .service-card h3 {
+    font-size: 2rem;
+    color: #ff6b6b; /* Highlighted heading */
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #333; /* Neutral text color */
+  }
+  
+  .updateService,
+  .deleteService {
+    background-color: #6c757d; /* Neutral button color */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  
+  .updateService:hover {
+    background-color: #495057; /* Darker hover effect */
+  }
+  
+  .deleteService:hover {
+    background-color: #ff6b6b; /* Highlighted delete button */
+  }
+  
+  .updateService:focus,
+  .deleteService:focus {
+    outline: none;
+  }
+  

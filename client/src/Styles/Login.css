@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6;
+    /* Soft pastel pink */
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    /* display: flex; */
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-box {
+    background-color: #FFF8F4;
+    /* Set the background color to white */
+    padding: 40px;
+    /* Increase padding for a spacious look */
+    border-radius: 70px;
+    /* Rounded corners for a modern look */
+   
+    width: 650px;
+    height: 600px;
+    /* Set a maximum width to keep the form compact */
+    margin: auto;
+    
+
+}
+
+
+.form-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+   
+    color: #E09D7B;
+    font-family:'Broadway';
+}
+
+.form-label {
+    font-size: 20px;
+    font-weight: 600;
+    color: #555;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.form-input {
+    margin-bottom: 20px;
+    border: 1px solid #271e1e;
+    /* Add a subtle border */
+    border-radius: 5px;
+    /* Rounded corners for input fields */
+    padding: 20px;
+    /* Add padding for comfortable typing */
+    font-size: 16px;
+}
+
+.form-button {
+    width: 200px;
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #C8A7A5;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    
+    
+
+}
+
+.form-button:hover {
+    background-color: #b94545;
+    /* Slightly darker shade */
+}
+
+.small-text {
+    text-align: center;
+    font-size: 15px;
+    
+    font-weight: bold;
+}
+
+.small-text a {
+    color: #d35b5b;
+    text-decoration: none;
+}
+
+.small-text a:hover {
+    text-decoration: underline;
+}
+
+.image {
+    max-width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    /* Ensure text aligns with the image dimensions */
+}
+
+/* Styling for the text on the image */
+.bottom-left-text {
+    position: absolute;
+    /* bottom: 1px; */
+    left: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    /* Dark text color for contrast */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Semi-transparent background */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Image styling */
+.right-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+    /* Apply the semi-transparent effect */
+    border-radius: 10px;
+    /* Optional: Rounded corners */
+}

@@ -1,0 +1,47 @@
+.profileImage {
+    width: 100px; /* Size of the image */
+    height: 100px; /* Size of the image */
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #fff; /* White border around the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  button.button {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+  }
+  
+  button.button:hover {
+    background-color: #eb9898;
+    box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.4);
+    transform: translateY(-2px);
+  }
+  .locationDisplay h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff6b6b;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  
+  .locationDisplay p {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .locationDisplay {
+    text-align: left;
+    padding: 20px;
+  }
+    

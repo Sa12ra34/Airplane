@@ -1,0 +1,51 @@
+.service-detail {
+    display: flex; /* Enable flexbox for the container */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .service-detail .row {
+    width: 100%; /* Ensure the row takes full width */
+    max-width: 1200px; /* Optional: Limit the maximum width */
+  }
+  
+  .service-form {
+    background: #f5e7e7;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+  }
+  
+  .service-photo {
+    /* display: flex; */
+    align-items: center; /* Center the image vertically */
+    justify-content: center; /* Center the image horizontally */
+    /* background: #fff; */
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    width: 100%;
+  }
+  
+  .service-photo img {
+    max-height: 100%; /* Ensure the image fits within the container */
+    max-width: 100%; /* Prevent overflow */
+    object-fit: cover; /* Crop or scale image as necessary */
+    border-radius: 8px;
+  }
+  button {
+    background-color: #af4d4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #8e3b3b;
+  }
+  
+  

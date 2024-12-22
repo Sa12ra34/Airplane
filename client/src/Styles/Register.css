@@ -1,0 +1,113 @@
+/* Register Page Styling */
+.register-container {
+    background-color: #FFF8F4;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0%;
+    border-radius: 60px;
+
+    border-radius: 70px;
+    /* Rounded corners for a modern look */
+
+    width: 650px;
+    height: 800px;
+    /* Set a maximum width to keep the form compact */
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left:40%;
+    padding: 40px;
+
+}
+
+
+
+.appTitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.register-form {
+    position: center;
+    align-items: center;
+
+   
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Input Field Styling */
+.form-control {
+    /* padding: 14px 18px; */
+    border-radius: 2px;
+    border: 1px solid #160f0f;
+    font-size: 16px;
+    background-color: #fdfdfd;
+    color: #333;
+    width: 100%;
+}
+
+
+/* Placeholder styling (hides placeholder and styles label when typing) */
+.form-control::placeholder {
+    color: transparent;
+}
+
+/* Floating Label Styling */
+.input-label {
+    position: left;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #aaa;
+    /* Grey label */
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+    z-index: 0;
+    /* Keeps label behind the input */
+}
+
+/* Floating label when input is focused or filled */
+.form-group .form-control:focus+.input-label,
+.form-group .form-control:not(:placeholder-shown)+.input-label {
+    top: -12px;
+    font-size: 14px;
+    color: #f2a1a1;
+    /* Light red color when focused or filled */
+    z-index: 1;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Register button styling */
+.register-button {
+    background-color: #f2a1a1;
+    border-radius: 25px;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    width: 200px;
+    margin-left: 35%;
+    transition: background-color 0.3s;
+}
+
+.register-button:hover {
+    background-color: #e08989;
+    /* Darker red when hovering */
+}
+
+
+
+/* Login Link Styling */
